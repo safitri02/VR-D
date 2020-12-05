@@ -1,0 +1,340 @@
+body{
+     max-width: 100%;
+     font-family: 'Poppins', sans-serif;
+     top: 0;
+     bottom: 0;
+     padding: 0;
+     margin: 0;
+     width: 100%;
+}
+.header{
+     /* background-color: #653FB6; */
+     background-image: linear-gradient(to right, #351C68 ,#653FB6);
+     height: 600px;
+     padding: 30px;
+     overflow: hidden;
+     display: flex;
+     flex-direction: row;
+     
+}
+
+.header .caption{
+     padding: 50px;
+     color: white;
+     max-width: 55%;
+     flex-direction: column;
+}
+
+.header .caption p{
+     width: 90%;
+}
+
+.header .caption h1{
+     font-size: 40px;
+     font-weight: bold;
+     width: 90%;
+}
+
+.header .caption span{
+     color: #FF6AF0;
+}
+
+.header .caption button{
+     cursor: pointer;
+     padding: 15px 20px;
+     background-color: #FF6AF0;
+     border: none;
+     color: white;
+     font-size: 16px;
+     margin-top: 30px;
+     border-radius: 30px;
+}
+
+.header .caption button:hover{
+     background-color: #6AC1FF;
+     border: none;
+}
+
+/* .header .img {
+     max-width: 50%;
+} */
+
+.header .img img{
+     width: 600px;
+     margin-right: 30px;
+     margin-top: 30px;
+}
+
+.brand {
+     margin-top: 50px;
+}
+
+.brand img{
+     max-width: 100%;
+}
+
+.brand hr{
+     width: 85%;
+     opacity: 0.6;
+     justify-content: center;
+}
+
+.about{
+     display: flex;
+     flex-direction: row;
+}
+
+.about .aboutImg{
+     max-width: 50%;
+}
+
+.about .aboutImg img{
+     width: 600px;
+     margin-bottom: 10px;
+}
+
+.about .aboutCapt {
+     margin-top: 50px;
+     margin-left: 50px;
+     width: 45%;
+}
+
+.about .aboutCapt p{
+     font-size: 20px;
+}
+.about .aboutCapt h5{
+     font-size: 16px;
+     margin-top: -20px;
+}
+
+.masalah h3{
+     margin-top: 50px;
+     text-align: center;
+     color: #FF6AF0;
+}
+
+.masalah h1{
+     margin-left: 15%;
+     width: 70%;
+     text-align: center;
+}
+
+.masalah hr{
+     width: 10%;
+     color: #FF6AF0;
+}
+
+.masalah p{
+     margin-left: 15%;
+     width: 70%;
+     text-align: center;
+}
+
+.solusi{
+     margin-bottom: 50px;
+     background-color: #F4F0FD;
+     height: 450px;
+     display: flex;
+     flex-direction: row;
+}
+
+.solusi .solusiCapt h1{
+     margin-top: 60px;
+     margin-left: 10%;
+     width: 80%;
+}
+
+.solusi .solusiCapt p{
+     margin-top: 20px;
+     margin-left: 10%;
+     width: 80%;
+}
+
+.solusi .solusiCapt button{
+     margin-top: 10px;
+     padding: 15px 20px;
+     background-color: #FF6AF0;
+     border-radius: 30px;
+     border: none;
+     color: white;
+     margin-left: 10%;
+     font-size: 16px;
+}
+
+.solusi .solusiCapt button:hover{
+     background-color: #6AC1FF;
+     margin-bottom: 15px;
+}
+
+.jFitur{
+     margin-top: 15px;
+     margin-left: 30%;
+     width: 40%;
+}
+
+.jFitur h3{
+     color: #FF6AF0;
+     font-weight: bold;
+}
+
+.jFitur hr{
+     width: 30px;
+     text-align: center;
+     color: #FF6AF0;
+}
+
+.fitur{
+     display: flex;
+     flex-direction: row;
+     width: 80%;
+     margin-left: 5%;
+}
+
+.fitur h1{
+     margin-top: 150px;
+     font-size: 25px;
+     font-weight: bold;
+}
+
+.fitur p{
+     font-size: 16px;
+}
+
+.keuntungan{
+     padding:20px;
+     height: 450px;
+     display: flex;
+     flex-direction: row;
+     background-color: #6245A2;
+}
+
+.keuntungan .untungCapt{
+     margin-left:100px;
+     max-width: 40%;
+}
+
+.keuntungan .untungCapt h1{
+     color: white;
+     font-size: 32px;
+}
+
+.keuntungan .untungCapt h3{
+     color: #FF6AF0;
+     font-size: 25px;
+}
+
+.keuntungan .untungCapt p{
+     color: #B2A5CC;
+     font-size: 16px;
+}
+
+.keuntungan .untungImg img{
+     width: 600px;
+     margin-top: 20px;
+}
+
+.keuntungan button{
+     padding: 15px 20px;
+     border:none;
+     border-radius: 30px;
+     color:white;
+     background-color: #FF6AF0;
+     font-size: 16px;
+     margin-top: 30px;
+}
+
+.keuntungan button:hover{
+     background-color: #6AC1FF;
+}
+
+.pertanyaan{
+     margin-bottom: -20px;
+     background-color: #F4F0FD;
+     height: 650px;
+}
+
+.pertanyaan h1{
+     margin-top: 50px;
+     text-align: center;
+}
+
+.pertanyaan .isi{
+     margin-left: 25%;
+     justify-content: center;
+     width: 50%;
+}
+
+.memberArea{
+     height: 800px;
+     background-color: #6C48B9;
+}
+
+.memberArea .container .Meming .img1, .img2{
+     justify-content: center;
+     height: 200px;
+     padding: 50px;
+     border-radius: 50%;
+}
+
+.memberArea .container .Meming .img1{
+     margin-left: 30%;
+}
+
+.memberArea .container .Memcapt{
+     width: 70%;
+     justify-content: center;
+}
+
+.memberArea .container .Memcapt{
+     color: #C3B5DE;
+     margin-left: 15%;
+}
+
+.memberArea .container .Memcapt hr{
+     background-color:  #FF6AF0;
+     margin-top: 30px;
+     opacity: 0.4;
+     width: 100%;
+}
+
+.memberArea .container .Memcapt button{
+     color: white;
+     background-color: #FF6AF0;
+     padding:15px 25px;
+     border: none;
+     border-radius: 30px;
+     margin-left: 40%;
+     margin-top: 20px;
+}
+
+.memberArea .container .cr{
+     width: 70%;
+     justify-content: center;
+}
+
+.memberArea .container .cr p{
+     margin-top: 30px;
+     margin-left: 30%;
+     color:#C3B5DE;
+     font-size: 13px;
+     text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
